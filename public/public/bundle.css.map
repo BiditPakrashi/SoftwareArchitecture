@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "../App.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\n\tlet name = 'Bidit';\n\tlet number = 1;\n\n\tfunction incrementNumber() {\n\t\tnumber += 1;\n\t}\n</script>\n\n<style>\n\th1 {\n\t\tcolor: purple;\n\t}\n</style>\n\n<h1>Hello {name}, my Number is {number}!</h1>\n<button on:click=\"{incrementNumber}\">Change Number</button>\n"
+  ],
+  "names": [],
+  "mappings": "AAUC,EAAE,cAAC,CAAC,AACH,KAAK,CAAE,MAAM,AACd,CAAC"
+}
